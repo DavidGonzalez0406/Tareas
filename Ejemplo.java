@@ -1,4 +1,4 @@
-public class Automovil {
+public class Ejemplo {
 	
 	int velocidad = 0;			// La velocidad a la que se desplaza el auto
 	boolean motor = false;		// Representa si el motor est  encendido (true) o apagado (false)
