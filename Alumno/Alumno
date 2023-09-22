@@ -1,6 +1,6 @@
 package Alumno;
 
-class alumno {
+class Alumno {
     private String nombre;
     private String carrera;
     private String matricula;
