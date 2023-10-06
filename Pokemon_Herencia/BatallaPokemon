@@ -1,6 +1,3 @@
-
-package pokemon;
-
 public class BatallaPokemon {
     public static void main(String[] args){
         PokemonFuego flareon = new PokemonFuego("Flareon", 10);
