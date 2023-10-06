@@ -1,5 +1,3 @@
-
-
 public class Pokemon {
     private int HP;
     private int nivel;
