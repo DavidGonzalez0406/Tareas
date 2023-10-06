@@ -5,21 +5,16 @@ public class Pokemon {
     private int nivel;
     private String nombre;
     private String tipo;
-    
-   
-    public Pokemon(int nivel, String nombre, String tipo) {
-        this.nivel = nivel;
+
+    public Pokemon(String nombre, String tipo, int nivel) {
+        this.HP = 100;
         this.nombre = nombre;
         this.tipo = tipo;
-        this.HP = 100;
+        this.nivel = nivel;
     }
 
     public int getHP() {
         return HP;
-    }
-
-    public int getNivel() {
-        return nivel;
     }
 
     public String getNombre() {
@@ -29,23 +24,23 @@ public class Pokemon {
     public String getTipo() {
         return tipo;
     }
-    
+
+    public int getNivel() {
+        return nivel;
+    }
+
     private void calculaDanio(int danio) {
         this.HP -= danio;
-        System.out.printf("%S recibe %d puntos de danio\n",
-                this.getNombre(), danio);
+        System.out.printf("%s recibe %d puntos de danio\n", this.getNombre(), danio);
     }
-    
-    public void recibirAtaques(String movimiento){
-        System.out.printf("%s recibe ATK %s\n", this.getNombre(),
-                movimiento);
-        calculaDanio((int) (Math.random() * 10 + 1));
+
+    public void recibirAtaques(String movimiento) {
+        System.out.printf("%s recibe ATK %s\n", this.getNombre(), movimiento);
+        calculaDanio((int) (Math.random() * 10));
     }
-    
-    public void atacar(String movimiento, Pokemon pokemon){
-        System.out.printf("%s ataca a %s con %s\n", this.getNombre(),
-                pokemon.getNombre(), movimiento);
-        pokemon.recibirAtaque(movimiento);
+
+    public void atacar(String movimiento, Pokemon pokemon) {
+        System.out.printf("%s ataca a %s con %s\n", this.getNombre(), pokemon.getNombre(), movimiento);
+        pokemon.recibirAtaques(movimiento);
     }
-            
 }
