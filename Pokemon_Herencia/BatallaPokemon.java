@@ -10,3 +10,4 @@ public class BatallaPokemon {
         System.out.println(Anpharos.getNombre() + ": HP " + Anpharos.getHP());
     }
 }
+
