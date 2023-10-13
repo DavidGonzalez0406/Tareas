@@ -1,15 +1,12 @@
-
 public class BatallaPokemon {
     public static void main(String[] args){
-        PokemonFuego flareon = new PokemonFuego("Flareon", 10);
-        Pokemon Anpharos = new Pokemon("Anpharos", "Ekectrico-Dragon", 10);
+        PokemonFuego Flareon = new PokemonFuego("Flareon", 10);
+        PokemonElectrico Anpharos = new PokemonElectrico("Anpharos", 10);
         
-        flareon.atacar("Ascuas", Anpharos);
-
-        Anpharos.atacar("Electrocacañon", flareon);
+        Flareon.atacar("Ascuas", Anpharos);
+        Anpharos.atacar("Electrocacañon", Flareon);
     
-        System.out.println(flareon.getNombre() + ": HP " + flareon.getHP());
+        System.out.println(Flareon.getNombre() + ": HP " + Flareon.getHP());
         System.out.println(Anpharos.getNombre() + ": HP " + Anpharos.getHP());
     }
 }
-
