@@ -3,3 +3,4 @@ public class PokemonElectrico extends Pokemon{
     super(nombre, "Electrico", 10);
     }
 }
+
