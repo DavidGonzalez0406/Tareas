@@ -1,4 +1,5 @@
 package pokemon.pokemon;
+
 public enum Tipo {
     ACERO,AGUA, BICHO,
     DRAGON, ELECTRICO, FANTASMA,
