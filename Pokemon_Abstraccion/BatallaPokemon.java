@@ -1,4 +1,3 @@
-package pokemon;
 import pokemon.pokemon.PokemonElectrico;
 import pokemon.pokemon.PokemonFuego;
 
