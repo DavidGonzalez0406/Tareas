@@ -1,10 +1,14 @@
+package pokemon;
+import pokemon.pokemon.PokemonElectrico;
+import pokemon.pokemon.PokemonFuego;
+
 public class BatallaPokemon {
     public static void main(String[] args){
         PokemonFuego Flareon = new PokemonFuego("Flareon", 10);
-        PokemonElectrico Anpharos = new PokemonElectrico("Anpharos", 10);
+        PokemonElectrico Anpharos = new PokemonElectrico("Ampharos", 10);
         
-        Flareon.atacar("Ascuas", Anpharos);
-        Anpharos.atacar("Electrocacañon", Flareon);
+        Flareon.atacar(3, Anpharos);
+        Anpharos.atacar(2, Flareon);
     
         System.out.println(Flareon.getNombre() + ": HP " + Flareon.getHP());
         System.out.println(Anpharos.getNombre() + ": HP " + Anpharos.getHP());
