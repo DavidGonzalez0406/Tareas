@@ -1,4 +1,4 @@
-package pokemon.pokemon;
+package Pokemon_Polimorfismo.pokemon;
 
 public class Movimiento {
     private String nombre;
@@ -49,4 +49,4 @@ public Movimiento getMovimiento(int indice) {
     return movimientos[indice];
 }
 
-}
+}  
