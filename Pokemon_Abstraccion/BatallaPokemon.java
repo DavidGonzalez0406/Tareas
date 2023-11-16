@@ -1,5 +1,3 @@
-package Pokemon_Abstraccion;
-
 import Pokemon_Abstraccion.pokemon.PokemonFuego;
 import Pokemon_Abstraccion.pokemon.PokemonElectrico;
 
