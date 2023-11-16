@@ -1,4 +1,3 @@
-package Pokemon_Polimorfismo.pokemon;
 public enum Tipo {
     ACERO,AGUA, BICHO,
     DRAGON, ELECTRICO, FANTASMA,
