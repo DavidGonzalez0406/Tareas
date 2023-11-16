@@ -1,6 +1,6 @@
-package pokemon;
-
-import pokemon.pokemon.*;
+import Pokemon_Polimorfismo.pokemon.Mew;
+import Pokemon_Polimorfismo.pokemon.Articuno;
+import Pokemon_Polimorfismo.pokemon.Tipo;
 
 public class BatallaPokemon {
 public static void main(String[] args) {
