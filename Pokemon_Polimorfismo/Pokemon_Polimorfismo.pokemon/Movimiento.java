@@ -1,5 +1,3 @@
-package Pokemon_Polimorfismo.pokemon;
-
 public class Movimiento {
     private String nombre;
     private int puntosDeAtaque;
