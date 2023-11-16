@@ -1,5 +1,3 @@
-package Pokemon_Abstraccion.pokemon;
-
 import Pokemon_Abstraccion.pokemon.Tipo;
 
 public class Movimiento {
