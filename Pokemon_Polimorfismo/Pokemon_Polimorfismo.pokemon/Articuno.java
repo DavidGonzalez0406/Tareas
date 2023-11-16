@@ -1,10 +1,10 @@
-package pokemon.pokemon;
+package Pokemon_Polimorfismo.pokemon;
 
 public class Articuno extends Pokemon {
     public Articuno(Tipo tipo, int PS, int Ataque, int Defensa, int AtaqueEspecial, int DefensaEspecial, int Velocidad, int Nivel) {
         super(Tipo.HIELO.VOLADOR, 90, 85, 100, 95, 125, 85,10);
 
-        ListaMovimientos listaMovimientos = new ListaMovimientos();
+        ListadeMovimientos listaMovimientos = new ListadeMovimientos();
 
         Movimiento[] movimientos = new Movimiento[4];
         movimientos[0] = listaMovimientos.buscarMovimientoPorNombre("Tornado");
