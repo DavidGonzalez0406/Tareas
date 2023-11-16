@@ -1,5 +1,3 @@
-package Pokemon_Abstraccion.pokemon;
-
 import java.util.ArrayList;
 import Pokemon_Abstraccion.pokemon.Movimiento;
 import Pokemon_Abstraccion.pokemon.Tipo;
