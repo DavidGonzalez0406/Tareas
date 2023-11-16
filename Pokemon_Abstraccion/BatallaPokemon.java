@@ -1,5 +1,7 @@
-import pokemon.pokemon.PokemonElectrico;
-import pokemon.pokemon.PokemonFuego;
+package Pokemon_Abstraccion;
+
+import Pokemon_Abstraccion.pokemon.PokemonFuego;
+import Pokemon_Abstraccion.pokemon.PokemonElectrico;
 
 public class BatallaPokemon {
     public static void main(String[] args){
