@@ -1,4 +1,3 @@
-package Pokemon_Polimorfismo.pokemon;
 import java.util.ArrayList;
 
 public class ListadeMovimientos {
