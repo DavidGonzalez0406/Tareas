@@ -1,10 +1,10 @@
-package pokemon.pokemon;
+package Pokemon_Polimorfismo.pokemon;
 import java.util.ArrayList;
 
-public class ListaMovimientos {
+public class ListadeMovimientos {
 private ArrayList<Movimiento> movimientos = new ArrayList<>();
     
-    public ListaMovimientos(){
+    public ListadeMovimientos(){
         
         movimientos.add(new Movimiento("Destructor", 40, Tipo.NORMAL, 35, TipoAtaque.FISICO));
         movimientos.add(new Movimiento("Poder Pasado", 60, Tipo.ROCA, 5, TipoAtaque.FISICO ));
@@ -25,4 +25,4 @@ private ArrayList<Movimiento> movimientos = new ArrayList<>();
         }
         return null;
     }
-} 
+}   
