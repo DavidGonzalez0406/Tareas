@@ -1,4 +1,7 @@
-package pokemon.pokemon;
+package Pokemon_Abstraccion.pokemon;
+
+import Pokemon_Abstraccion.pokemon.Movimiento;
+import Pokemon_Abstraccion.pokemon.Tipo;
 
 public abstract class Pokemon {
     private int HP;
