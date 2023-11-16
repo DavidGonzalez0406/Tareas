@@ -1,5 +1,3 @@
-package Pokemon_Polimorfismo.pokemon;
-
 public class Mew extends Pokemon {
     public Mew(Tipo tipo, int PS, int Ataque, int Defensa, int AtaqueEspecial, int DefensaEspecial, int Velocidad, int Nivel) {
         super(Tipo.PSIQUICO, 100, 100, 100, 100, 100, 100, 10);
