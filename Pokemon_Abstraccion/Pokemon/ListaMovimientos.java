@@ -1,5 +1,9 @@
-package pokemon.pokemon;
+package Pokemon_Abstraccion.pokemon;
+
 import java.util.ArrayList;
+
+import Pokemon_Abstraccion.pokemon.Movimiento;
+import Pokemon_Abstraccion.pokemon.Tipo;
 
 public class ListaMovimientos {
 private ArrayList<Movimiento> movimientos = new ArrayList<>();
