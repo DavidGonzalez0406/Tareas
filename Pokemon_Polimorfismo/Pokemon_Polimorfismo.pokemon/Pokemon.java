@@ -1,4 +1,4 @@
-package pokemon.pokemon;
+package Pokemon_Polimorfismo.pokemon;
 
 public abstract class Pokemon {
 
