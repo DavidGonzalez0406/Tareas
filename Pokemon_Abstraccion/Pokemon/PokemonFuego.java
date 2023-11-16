@@ -1,4 +1,9 @@
-package pokemon.pokemon;
+package Pokemon_Abstraccion.pokemon;
+
+import Pokemon_Abstraccion.pokemon.ListaMovimientos;
+import Pokemon_Abstraccion.pokemon.Movimiento;
+import Pokemon_Abstraccion.pokemon.Pokemon;
+import Pokemon_Abstraccion.pokemon.Tipo;
 
 public class PokemonFuego extends Pokemon {
     public PokemonFuego(String nombre, int nivel) {
