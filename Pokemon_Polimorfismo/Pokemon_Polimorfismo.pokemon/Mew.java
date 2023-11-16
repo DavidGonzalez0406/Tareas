@@ -1,10 +1,10 @@
-package pokemon.pokemon;
+package Pokemon_Polimorfismo.pokemon;
 
 public class Mew extends Pokemon {
     public Mew(Tipo tipo, int PS, int Ataque, int Defensa, int AtaqueEspecial, int DefensaEspecial, int Velocidad, int Nivel) {
         super(Tipo.PSIQUICO, 100, 100, 100, 100, 100, 100, 10);
         
-        ListaMovimientos listaMovimientos = new ListaMovimientos();
+        ListadeMovimientos listaMovimientos = new ListadeMovimientos();
         
         Movimiento[] movimientos = new Movimiento[4];
         movimientos[0] = listaMovimientos.buscarMovimientoPorNombre("Destructor");
@@ -30,4 +30,4 @@ public class Mew extends Pokemon {
         
         return efectividad;   
     }   
-}
+}   
