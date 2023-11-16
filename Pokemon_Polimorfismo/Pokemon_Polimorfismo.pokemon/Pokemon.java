@@ -1,5 +1,3 @@
-package Pokemon_Polimorfismo.pokemon;
-
 public abstract class Pokemon {
 
     private Tipo tipo;
