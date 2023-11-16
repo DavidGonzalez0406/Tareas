@@ -1,4 +1,6 @@
-package pokemon.pokemon;
+package Pokemon_Abstraccion.pokemon;
+
+import Pokemon_Abstraccion.pokemon.Tipo;
 
 public class Movimiento {
     private String nombre;
